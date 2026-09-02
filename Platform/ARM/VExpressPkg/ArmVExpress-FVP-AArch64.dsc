@@ -249,7 +249,6 @@
   #
   gArmTokenSpaceGuid.PcdGicDistributorBase|0x2f000000
   gArmTokenSpaceGuid.PcdGicRedistributorsBase|0x2f100000
-  gArmTokenSpaceGuid.PcdGicInterruptInterfaceBase|0x2C000000
 
   gArmTokenSpaceGuid.PcdGicIrsConfigFrameBase|0x2f1a0000
 
@@ -455,7 +454,7 @@
       gArmPlatformTokenSpaceGuid.PL011UartInterrupt|0x25
   }
 
-  ArmPkg/Drivers/ArmGicDxe/ArmGicDxe.inf
+  ArmPkg/Drivers/ArmGicDxe/ArmGicV3Dxe.inf
 
  #
  # If ENABLE_UEFI_SECURE_VARIABLE == TRUE && ENABLE_FIRMWARE_UPDATE == TRUE,
